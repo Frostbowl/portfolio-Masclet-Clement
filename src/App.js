@@ -7,11 +7,11 @@ import Footer from './pages/footer/Footer';
 function App() {
   return (
     <div className="App">
-      <div><Header/></div>
+      <Header/>
       <Routes>
         <Route path='/' element= {<Home/>}/>
       </Routes>
-      <div><Footer/></div>
+      <Footer/>
     </div>
   );
 }

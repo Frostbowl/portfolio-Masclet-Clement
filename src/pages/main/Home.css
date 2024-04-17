@@ -1,0 +1,67 @@
+.background{
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/public/img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+}
+
+button{
+    margin-top: 1rem;
+    background-color: #024959;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: #592B02;
+}
+
+h1, h2{
+    margin-top: 1rem;
+}
+
+a{
+    color: #F2E3D5;
+}
+
+main{
+    background-color: #024959;
+}
+
+#about{
+    margin-top: 2rem;
+    background-color: #026773;
+}
+
+article h2{
+    border-bottom: 0.4rem solid #592B02;
+}
+p{
+    text-align: justify;
+}
+
+section{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+article{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 15px;
+
+}
