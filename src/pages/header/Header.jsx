@@ -19,8 +19,8 @@ const Header = () =>{
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav ms-auto">
                             <Link to='/' className="nav-link active" aria-current="page" style= {{color:'#F2E3D5'}} >accueil</Link>
-                            <Link to='#' className="nav-link" style= {{color:'#F2E3D5'}} >mes réalisations</Link>
-                            <Link to='#' className="nav-link" style= {{color:'#F2E3D5'}} >me contacter</Link>
+                            <Link to='/' className="nav-link" style= {{color:'#F2E3D5'}} >mes réalisations</Link>
+                            <Link to='/contact' className="nav-link" style= {{color:'#F2E3D5'}} >me contacter</Link>
                     </div>
                     </div>
                 </div>

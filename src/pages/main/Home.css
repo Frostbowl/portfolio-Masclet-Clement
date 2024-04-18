@@ -25,9 +25,6 @@ button{
     border-radius: 10px;
 }
 
-button:hover{
-    background-color: #592B02;
-}
 
 h1, h2{
     margin-top: 1rem;
@@ -52,11 +49,11 @@ main{
 article h2{
     border-bottom: 0.4rem solid #592B02;
 }
-p{
+.col-md-6 p{
     text-align: justify;
 }
 
-section{
+.about{
     margin-top: 2rem;
     box-shadow: 1px 1px 30px 10px #F2E3D5;
     padding-bottom: 2rem;
