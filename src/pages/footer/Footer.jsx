@@ -20,7 +20,7 @@ const Footer = () => {
                         <h3>Liens utiles</h3>
                         <Link to="/">Accueil</Link>
                         <Link to="/">Mes réalisations</Link>
-                        <Link to="/">Me contacter</Link>
+                        <Link to="/contact">Me contacter</Link>
                     </article>
                     <article className="col-md-4">
                         <h3>Mes réalisations</h3>

@@ -1,0 +1,50 @@
+.bgContact{
+    background-color: #024959;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-top: 0.5rem solid #592B02;
+}
+
+form{
+    background-color: #3CA6A6;
+    box-shadow: 1px 1px 30px 10px #F2E3D5;
+}
+
+.bonjour{
+    text-align: center;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea{
+    color: black;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    border-radius: 15px;
+    padding-left: 0.4rem;
+}
+
+textarea{
+    padding-top: 0.1rem;
+}
+
+.btn{
+    width: 8rem;
+    border-radius: 35px;
+    border: 0.3rem solid #592B02;
+    color: #F2E3D5;
+}
+
+.btn:hover{
+    border: 0.3rem solid #592B02;    
+    box-shadow: 1px 1px 30px 10px #F2E3D5;
+}

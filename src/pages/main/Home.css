@@ -25,9 +25,6 @@ button{
     border-radius: 10px;
 }
 
-button:hover{
-    background-color: #592B02;
-}
 
 h1, h2{
     margin-top: 1rem;
@@ -52,7 +49,7 @@ main{
 article h2{
     border-bottom: 0.4rem solid #592B02;
 }
-p{
+.col-md-6 p{
     text-align: justify;
 }
 
