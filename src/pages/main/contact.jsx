@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import emailjs from "emailjs-com";
+import emailjs from '@emailjs/browser'
 import './contact.css';
 
 const Contact = () =>{
@@ -25,12 +25,14 @@ const Contact = () =>{
 
         emailjs.init(process.env.REACT_APP_EMAILJS_PUBLIC_KEY);
 
-        const serviceID = process.env.REACT_APP_EMAILJS_SERVICEID;
-        const templateID = process.env.REACT_APP_EMAILJS_TEMPLATEID;
-
-        emailjs.send(serviceID, templateID, content, {publicKey: 'NfdjUSFo5PKscQ3Hd'})
+        emailjs.send('service_y96wfuj', 'template_gbydwv8', content, {publicKey: 'NfdjUSFo5PKscQ3Hd'})
         .then((response) => {
             alert('Email envoyé avec succès');
+            setName('');
+            setEmail('');
+            setPhone('');
+            setSubject('');
+            setMessage('');
         })
     };
 
@@ -56,7 +58,7 @@ const Contact = () =>{
                             <label for="subject"></label>
                             <input type="text" name='subject' placeholder='Sujet' value={subject} onChange={(e) => setSubject(e.target.value)} required/>
                             <label for="message"></label>
-                            <textarea type="textarea" name='message' placeholder='Votre message' rows='4' value={message} onChange={(e) => setMessage(e.target.value)} required/>      
+                            <textarea name='message' placeholder='Votre message' rows='4' value={message} onChange={(e) => setMessage(e.target.value)} required/>      
                             <div className='formBtn text-center p-4'>                   
                             <button type='submit' className='btn '>Envoyer</button>
                             </div>  
