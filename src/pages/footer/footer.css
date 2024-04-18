@@ -1,0 +1,31 @@
+.col-md-4 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.col-md-4 a, .copyright a{
+    text-decoration: none;
+    color: #F2E3D5;
+}
+footer{
+    background-image: url(/public/img/wood2.jpg);
+    padding-bottom: 1rem;
+}
+
+article h3{
+    text-align: center;
+    border-bottom: 0.2rem solid #024959;
+}
+
+.copyright{
+    background-color: #024959;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    color: white;
+}
+
+footer .copyright:hover{
+    background-color: #0CA6A6;
+}

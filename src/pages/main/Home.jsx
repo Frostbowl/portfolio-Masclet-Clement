@@ -31,26 +31,25 @@ const Home = () => {
                         <h2>Mes compétences</h2>
                         <p>HTML5 90%</p>
                             <div className="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                <div className="progress-bar " style= {{width: "90%", backgroundColor:"#592B02"}}></div>
+                                <div className="progress-bar bg-image " style= {{width: "90%"}}></div>
                             </div><br />
                         <p className="">CSS3 80%</p>
                             <div className="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                <div className="progress-bar " style= {{width: "80%", backgroundColor:"#592B02"}}></div>
+                                <div className="progress-bar bg-image" style= {{width: "80%", backgroundColor:"#592B02"}}></div>
                             </div><br />
                         <p>JAVASCRIPT 70%</p>
                             <div className="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                <div className="progress-bar" style= {{width: "70%", backgroundColor:"#592B02"}}></div>
+                                <div className="progress-bar bg-image" style= {{width: "70%", backgroundColor:"#592B02"}}></div>
                             </div><br />
                         <p>REACT 50%</p>
                             <div className="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                <div className="progress-bar" style= {{width: "50%", backgroundColor:"#592B02"}}></div>
+                                <div className="progress-bar bg-image" style= {{width: "50%", backgroundColor:"#592B02"}}></div>
                             </div><br />
                         <p>Angular 50%</p>
                             <div className="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                <div className="progress-bar" style= {{width: "50%", backgroundColor:"#592B02"}}></div>
+                                <div className="progress-bar bg-image" style= {{width: "50%", backgroundColor:"#592B02"}}></div>
                             </div>
                     </article>
-
                 </div>
             </section>
         </main>

@@ -9,7 +9,8 @@ const Header = () =>{
                 <div className="container-fluid">
                     <div className="logo">
                         <Link to="/" className="navbar-brand" style= {{color:'#F2E3D5'}} >
-                            <img src="../img/logo.jpg" alt="Logo de Masclet Clément" width="110"/> Clément Masclet
+                            <img src="../img/logo.jpg" alt="Logo de Masclet Clément" width="110"/> 
+                            <h1 className="title">Clément Masclet</h1>
                         </Link>
                     </div>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
