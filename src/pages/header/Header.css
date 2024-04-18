@@ -3,16 +3,33 @@ a img{
 }
 
 nav{
-    background-color: #024959;
+    background-image: url(/public/img/wood2.jpg);
 }
 
-.navbar-nav a:hover{
-    background-color: #592B02;
+.navbar-brand{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.title{
+    margin-left: 1rem;
+    background-color: #024959;
+    border: #592B02 solid 0.3rem;
     border-radius: 50px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.title:hover, .navbar-nav a:hover{
+    border: #024959 solid 0.3rem;    
+    box-shadow: 1px 1px 30px 10px #F2E3D5;
 }
 
 .navbar-nav a{
     margin: 0 0.8rem;
+    background-color: #024959;
+    border: #592B02 solid 0.3rem;
+    border-radius: 50px;
 }
 
 
